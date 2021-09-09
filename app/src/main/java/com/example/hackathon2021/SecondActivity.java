@@ -51,5 +51,21 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(createIntent);
             }
         });
+
+        Chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent chatIntent = new Intent(SecondActivity.this, ChatActivity.class);
+                startActivity(chatIntent);
+            }
+        });
+
+        Map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mapIntent = new Intent(SecondActivity.this, MapActivity.class);
+                startActivity(mapIntent);
+            }
+        });
     }
 }

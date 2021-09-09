@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon2021">
-        <activity android:name=".CheckInActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".CheckInActivity" />
         <activity android:name=".CreateActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".ProfileActivity" />
