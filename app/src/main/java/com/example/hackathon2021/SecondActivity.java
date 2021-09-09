@@ -43,5 +43,13 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(searchIntent);
             }
         });
+
+        Create.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent createIntent = new Intent(SecondActivity.this, CreateActivity.class);
+                startActivity(createIntent);
+            }
+        });
     }
 }
