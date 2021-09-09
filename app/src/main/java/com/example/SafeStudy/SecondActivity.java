@@ -69,5 +69,13 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(mapIntent);
             }
         });
+
+        CheckIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent checkIntent = new Intent(SecondActivity.this, CheckInActivity.class);
+                startActivity(checkIntent);
+            }
+        });
     }
 }
