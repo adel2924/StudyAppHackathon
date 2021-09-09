@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/item1"
-        android:title="Friend 1" />
+        android:title="Adel" />
 
     <item
         android:id="@+id/item2"
-        android:title="Friend 2" />
+        android:title="Vinh" />
 
     <item
         android:id="@+id/item3"
-        android:title="Friend 3" />
+        android:title="Julia" />
 
     <item
         android:id="@+id/item4"
-        android:title="Friend 4" />
+        android:title="Euan" />
 
     <item
         android:id="@+id/item5"
-        android:title="Friend 5" />
+        android:title="Will" />
 </menu>
