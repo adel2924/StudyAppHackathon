@@ -1,29 +1,46 @@
 package com.example.hackathon2021;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private Button Profile;
+    private CardView Profile;
+    private CardView Search;
+    private CardView CheckIn;
+    private CardView Create;
+    private CardView Chat;
+    private CardView Map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Profile = (Button) findViewById(R.id.btnProfile);
+        Profile = (CardView) findViewById(R.id.card_profile);
+        Search = (CardView) findViewById(R.id.card_search);
+        CheckIn = (CardView) findViewById(R.id.card_check);
+        Create = (CardView) findViewById(R.id.card_create);
+        Chat = (CardView) findViewById(R.id.card_chat);
+        Map = (CardView) findViewById(R.id.card_map);
 
         Profile.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
-                Intent act3Intent = new Intent(SecondActivity.this, ProfileActivity.class);
-                startActivity(act3Intent);
+                Intent profileIntent = new Intent(SecondActivity.this, ProfileActivity.class);
+                startActivity(profileIntent);
+            }
+        });
+
+        Search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent searchIntent = new Intent(SecondActivity.this, SearchActivity.class);
+                startActivity(searchIntent);
             }
         });
     }
