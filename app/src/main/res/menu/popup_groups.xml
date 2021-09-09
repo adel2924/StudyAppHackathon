@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/item1"
-        android:title="Group 1" />
+        android:title="Physics" />
 
     <item
         android:id="@+id/item2"
-        android:title="Group 2" />
+        android:title="Software Engineering" />
 
     <item
         android:id="@+id/item3"
-        android:title="Group 3" />
+        android:title="Applied Maths" />
 
     <item
         android:id="@+id/item4"
-        android:title="Group 4" />
+        android:title="Mobile Development" />
 
     <item
         android:id="@+id/item5"
-        android:title="Group 5" />
+        android:title="Graphic Design" />
 </menu>

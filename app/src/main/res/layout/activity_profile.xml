@@ -53,11 +53,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="FirstName LastName"
-                                android:textStyle="bold"
-                                android:textSize="25sp"
+                                android:layout_gravity="center_horizontal"
                                 android:layout_marginTop="60dp"
-                                android:layout_gravity="center_horizontal"/>
+                                android:text="Josh Smith"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -70,12 +70,12 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BIO.........................................................................................................................................................................................................................................................................................................................................................................................................................................."
-                                android:textSize="18sp"
-                                android:layout_marginTop="20dp"
                                 android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="20dp"
+                                android:text="The unnoticed genius who lives in study room 3................................................................................................................................................................................................................"
                                 android:textAlignment="center"
-                                android:textStyle="italic"/>
+                                android:textSize="18sp"
+                                android:textStyle="italic" />
 
                             <TextView
                                 android:layout_width="wrap_content"
