@@ -1,4 +1,4 @@
-package com.example.hackathon2021;
+package com.example.SafeStudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.PopupMenu;
+
+import com.example.SafeStudy.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

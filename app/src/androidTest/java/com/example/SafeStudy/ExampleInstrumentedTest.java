@@ -1,4 +1,4 @@
-package com.example.hackathon2021;
+package com.example.SafeStudy;
 
 import android.content.Context;
 

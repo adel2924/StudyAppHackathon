@@ -1,4 +1,4 @@
-package com.example.hackathon2021;
+package com.example.SafeStudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -6,6 +6,8 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.SafeStudy.R;
 
 public class SecondActivity extends AppCompatActivity {
 

@@ -1,8 +1,10 @@
-package com.example.hackathon2021;
+package com.example.SafeStudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.SafeStudy.R;
 
 public class CheckInActivity extends AppCompatActivity {
 

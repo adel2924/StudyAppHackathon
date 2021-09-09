@@ -1,14 +1,16 @@
-package com.example.hackathon2021;
+package com.example.SafeStudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ChatActivity extends AppCompatActivity {
+import com.example.SafeStudy.R;
+
+public class MapActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat);
+        setContentView(R.layout.activity_map);
     }
 }

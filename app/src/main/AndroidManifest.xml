@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hackathon2021">
+    package="com.example.SafeStudy">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon2021">
-        <activity android:name=".MapActivity"></activity>
-        <activity android:name=".ChatActivity" />
-        <activity android:name=".CheckInActivity" />
-        <activity android:name=".CreateActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.SafeStudy.MapActivity"></activity>
+        <activity android:name="com.example.SafeStudy.ChatActivity" />
+        <activity android:name="com.example.SafeStudy.CheckInActivity" />
+        <activity android:name="com.example.SafeStudy.CreateActivity" />
+        <activity android:name="com.example.SafeStudy.SearchActivity" />
+        <activity android:name="com.example.SafeStudy.ProfileActivity" />
+        <activity android:name="com.example.SafeStudy.SecondActivity" />
+        <activity android:name="com.example.SafeStudy.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
